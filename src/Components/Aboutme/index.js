@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 export default function Aboutme()
 {
     return(
-        <Container fluid>
+        <Container id = "aboutC"fluid>
             <h2>Seja bem vindo!</h2>
             <p className="lead">
             Eu sou Daniela, sou desenvolvedora e busco aperfeiçoar 

@@ -1,11 +1,26 @@
 
-import {ResponsiveEmbed} from 'react-bootstrap'
+import { MDBContainer} from 'mdbreact'
+import {Container} from 'react-bootstrap'
+import Embed from 'react-embed';
 export default function React()
 {
-    <div className="embed-responsive embed-responsive-16by9">
-    <iframe className="embed-responsive-item" src="https://www.youtube.com/watch?v=dKP9dC6_rTw" allowfullscreen>
+    return(
+     <Container fluid>
+          
+            <Embed url='https://youtu.be/dKP9dC6_rTw' />
+            <p className="lead">Hyrule Encyclopedia</p>
+            <Embed url='https://youtu.be/dKP9dC6_rTw' />
+            <p className="lead">Portfolio version 1</p>
 
-    </iframe>
-  </div>
+            <Embed url='https://youtu.be/dKP9dC6_rTw' />
+            <p className="lead">Weather Web App</p>
+            <Embed url='https://youtu.be/dKP9dC6_rTw' />
+            <p className="lead">Anime list</p>
+           
+            
+
+     </Container>
+    )
+
   
 }

@@ -15,13 +15,6 @@ export default function Home () {
 
 
     return(
-        <>
-       
-      
-     
-       
-
-       
-        </>
+        <Container id = "mainContainer"></Container>
     );
 }
