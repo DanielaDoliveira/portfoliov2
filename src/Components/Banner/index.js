@@ -13,7 +13,7 @@ export default function Banner()
        <span><img className = "img-ban" src = {unity} /><img className = "img-ban"src = {react} /></span>
         <h3 className = "banner-subtitle">Software Developer</h3>
        
-        <Button className = "banner-btn"variant="light">Curriculum</Button>{' '}
+        <Button className = "banner-btn"variant="light" href = "https://drive.google.com/drive/folders/1pSKKbEcQvxUxdiragSB3qBR-Ir68Z-it?usp=sharing" >Curriculum</Button>{' '}
        </Container>
       </Container>
      )
