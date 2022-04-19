@@ -1,12 +1,6 @@
-import Footer from "../../Components/Footer";
-import Header from "../../Components/Header";
-import ProjectMenu from "../../Components/Projectmenu";
-import Submenu from "../../Components/Submenu";
-import '../../index.css';
+
 import {useState} from 'react'
 import {Container} from 'react-bootstrap'
-import Aboutme from "../../Components/Aboutme";
-
 
 export default function Home () {
 
@@ -15,6 +9,6 @@ export default function Home () {
 
 
     return(
-        <Container id = "mainContainer"></Container>
+    <Container id = "mainContainer"></Container>
     );
 }
