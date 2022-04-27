@@ -206,10 +206,19 @@ export default createGlobalStyle `
    
   }
   #reactEmbed iframe{
-    width: 100%;
+    width: 50%;
     padding-top:20px;
-    height: 500px;
+    height: 50%;
+    
   }
+  .reactContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+
   
   /*Footer*/
 
