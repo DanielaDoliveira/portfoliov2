@@ -1,7 +1,7 @@
 
 
 import Footer from "./Components/Footer";
-
+import './global.css'
 
 import light from './styles/themes/light';
 import {useState} from 'react'
