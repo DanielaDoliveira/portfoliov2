@@ -35,7 +35,7 @@ export default function Aboutme()
           <h3>Contact me</h3>
           <Button href = "https://linkedin.com/in/daniela-fialho-d-oliveira-479b53163" className="contact"> <FiLinkedin className="contact-badge" /></Button>
                   <Button  href = "https://t.me/Danethree"className="contact"> <RiTelegramLine className="contact-badge"/></Button>
-                  <Button href = "https://github.com/Danethree"className="contact"> <AiFillGithub className="contact-badge" /></Button>
+                  <Button href = "https://github.com/DanielaDoliveira"className="contact"> <AiFillGithub className="contact-badge" /></Button>
                 
         </Container>
         <p className = "lead">

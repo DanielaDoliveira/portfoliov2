@@ -18,7 +18,7 @@ export default function Footer()
                  
                   <Button href = "https://linkedin.com/in/daniela-fialho-d-oliveira-479b53163" className="social-media-btn"> <FiLinkedin className="social-media-icons" /></Button>
                   <Button  href = "https://t.me/Danethree"className="social-media-btn"> <RiTelegramLine className="social-media-icons"/></Button>
-                  <Button href = "https://github.com/Danethree"className="social-media-btn"> <AiFillGithub className="social-media-icons" /></Button>
+                  <Button href = "https://github.com/DanielaDoliveira"className="social-media-btn"> <AiFillGithub className="social-media-icons" /></Button>
                 
                 </Container>
               
